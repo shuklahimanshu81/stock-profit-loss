@@ -19,7 +19,7 @@ function clickHandler(){
            inputDiv.style.backgroundColor = "rgba(240,255,255,0.3)"
          }  
      }
-     else{
+     else  if(totalBuyingPrice > totalSellingPrice){
          var loss = totalBuyingPrice - totalSellingPrice;
          var lossPercent = ( loss/totalBuyingPrice)*100;
          result.innerText = "Hey! this trade was not profitable."
@@ -27,6 +27,9 @@ function clickHandler(){
          if(lossPercent > 50){
             inputDiv.style.backgroundColor = "rgba(127,255,212,0.3)"
          }
+     }
+     else{
+         result.innerText = "This trade was neither Profitable nor Lossy."
      }
     }
  else{
