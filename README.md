@@ -8,3 +8,10 @@
 
 <p> You will have to Enter the Buying Price, Volume and Selling Price of the stock and the App will show how much profit or loss is there in percentage(%) and in Absolute 
 value too. </p>
+
+<h4> Tech Stack </h4>
+<ul>
+  <li> HTML </li>
+  <li> CSS  </li>
+  <li> Vanilla JS </li>
+</ul>
